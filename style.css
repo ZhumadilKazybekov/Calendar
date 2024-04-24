@@ -131,71 +131,113 @@ body {
     .left {
         /* flex-wrap: wrap; */
         /* display: flex; */
-        width: 250px;
+        width: 175px;
     }
 
     .rigth {
         /* flex-wrap: wrap; */
         /* display: flex; */
-        width: 250px;
+        width: 175px;
     }
 
     #date {
-        font-size: 100px;
+        font-size: 80px;
     }
 
     #day {
-        font-size: 35px;
-        margin-bottom: 40px;
+        font-size: 30px;
     }
 
     #month {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     #year {
-        font-size: 70px;
+        font-size: 60px;
     }
 }
 
-/* @media (max-width:1100px){
+
+
+@media screen and (max-width:1000px){
     .hero {
-        flex-wrap: wrap;
-        display: flex;
+        /* flex-wrap: wrap; */
+        /* display: flex; */
     }
     .calendar {
-        flex-wrap: wrap;
-        display: flex;
+        /* flex-wrap: wrap; */
+        /* display: flex; */
+        height: 300px;
+        width: 350px;
     }
 
     .left {
-        flex-wrap: wrap;
-        display: flex;
+        /* flex-wrap: wrap; */
+        /* display: flex; */
+        width: 175px;
     }
 
     .rigth {
-        flex-wrap: wrap;
-        display: flex;
+        /* flex-wrap: wrap; */
+        /* display: flex; */
+        width: 175px;
+    }
+
+    #date {
+        font-size: 80px;
+    }
+
+    #day {
+        font-size: 30px;
+    }
+
+    #month {
+        font-size: 30px;
+    }
+
+    #year {
+        font-size: 60px;
     }
 }
 
-@media (max-width:1000px){
+@media screen and (min-width:800px){
     .hero {
-        flex-wrap: wrap;
-        display: flex;
+        /* flex-wrap: wrap; */
+        /* display: flex; */
     }
     .calendar {
-        flex-wrap: wrap;
-        display: flex;
+        /* flex-wrap: wrap; */
+        /* display: flex; */
+        height: 300px;
+        width: 350px;
     }
 
     .left {
-        flex-wrap: wrap;
-        display: flex;
+        /* flex-wrap: wrap; */
+        /* display: flex; */
+        width: 175px;
     }
 
     .rigth {
-        flex-wrap: wrap;
-        display: flex;
+        /* flex-wrap: wrap; */
+        /* display: flex; */
+        width: 175px;
     }
-} */
+
+    #date {
+        font-size: 80px;
+    }
+
+    #day {
+        font-size: 30px;
+    }
+
+    #month {
+        font-size: 30px;
+    }
+
+    #year {
+        font-size: 60px;
+    }
+}
+
